@@ -2,10 +2,11 @@
   "name": "calorie-protein-counter",
   "version": "1.0.0",
   "description": "Simple webapp for tracking calorie and protein intake",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,9 @@
   "bugs": {
     "url": "https://github.com/DaveRendell/calorie-protein-counter/issues"
   },
-  "homepage": "https://github.com/DaveRendell/calorie-protein-counter#readme",
+  "homepage": "https://DaveRendell.github.io/calorie-protein-counter",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "parcel": "^2.9.3"
   }
 }
