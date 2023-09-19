@@ -1,0 +1,24 @@
+{
+  "name": "calorie-protein-counter",
+  "version": "1.0.0",
+  "description": "Simple webapp for tracking calorie and protein intake",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveRendell/calorie-protein-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveRendell/calorie-protein-counter/issues"
+  },
+  "homepage": "https://github.com/DaveRendell/calorie-protein-counter#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
